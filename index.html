@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
+        integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body class="dark-mode">
+    <!-- nav -->
+    <div class="nav">
+        <h1>VISHAL</h1>
+        <div class="page2">
+            <h3><a href="#home">Home</a></h3>
+            <h3><a href="#projects">Project</a></h3>
+            <h3><a href="#skills">Skills</a></h3>
+            <h3><a href="#contact me">Contact me</a></h3>
+            <h2 id="dark-mode"><i class="fa-solid fa-moon"></i></h2>
+        </div>
+    </div>
+    <!-- home -->
+    <div class="home" id="home">
+        <div class="image">
+            <img src="my.jpg" class="myclass" />
+        </div>
+        <div class="lines">
+            <div class="line1">
+                <h2>Hii , I'm Vishal</h2>
+            </div>
+            <div class="line2">
+                <h1>FRONT-END</h1>
+            </div>
+            <div class="line3">
+                <h1>WEB DEVELOPER</h1>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="mybtn">View skills</button>
+        </div>
+    </div>
+    <!-- project -->
+    <div class="projects" id="projects">
+        <h1>Some of My Recent projects</h1>
+        <div class="boxes">
+            <div class="box">
+                <img src="e-commerce.jpg" class="boxe">
+                <h3>E-COMMERCE WEBSITE</h3>
+                <h2><a href="#">Check it out..</a></h2>
+            </div>
+            <div class="box">
+                <img src="portfolio.png" class="boxe">
+                <h3>PORTFOLIO WEBSITE</h3>
+                <h2><a href="#">Check it out..</a></h2>
+            </div>
+            <div class="box">
+                <img src="music1.webp" class="boxe">
+                <h3>MUSIC PLAYER WEBSITE</h3>
+                <h2><a href="#">Check it out..</a></h2>
+            </div>
+        </div>
+    </div>
+    <!-- skills -->
+    <div class="skills" id="skills">
+        <h1>Skills</h1>
+        <div class="image">
+            <div class="html">
+                <img src="html.png" class="html1">
+            </div>
+        </div>
+        <div class="image1">
+            <div class="css">
+                <img src="css.png" class="css1">
+            </div>
+            <div class="js">
+                <img src="JavaScript.png" class="js1">
+            </div>
+        </div>
+    </div>
+    <!-- contact me -->
+    <div class="contact" id="contact me">
+        <h1>Contact me </h1>
+        <form id="myform">
+            <div class="form">
+                <label for="name">Name:</label>
+                <input placeholder="Name" id="name" name="name" type="text">
+                <label for="email">Email:</label>
+                <input placeholder="Email" id="email" name="email" type="email">
+                <label for="number">Number:</label>
+                <input placeholder="Number" id="number" name="number" type="tel">
+                <label for="message">Message:</label>
+                <textarea placeholder="Message" id="message"></textarea>
+                <button class="btnsubmit">Submit</button>
+                <div id="formoutput">
+
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

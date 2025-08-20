@@ -1,0 +1,335 @@
+/* boiler plate */
+@font-face {
+    font-family: 'gilroy';
+    src: url(Gilroy-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', 'sans-serif';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+/* nav */
+.nav {
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.nav h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.nav h3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.page2 {
+    display: flex;
+    gap: 50px;
+    font-size: large;
+}
+
+.page2 h3 a {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 2s ease;
+}
+
+.page2 h3 a:hover {
+    border-bottom: 2px solid white;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.light-mode .nav h3 a {
+    background-color: white;
+    color: black;
+}
+
+.light-mode .page2 h3 a {
+    border-bottom: 2px solid transparent;
+}
+
+.light-mode .page2 h3 a:hover {
+    border-bottom: 2px solid black;
+}
+
+/* home */
+.home {
+    height: 550px;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.myclass {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 5px 0px;
+}
+
+.line1 {
+    text-align: center;
+    font-size: 25px;
+    padding: 5px 0px;
+}
+
+.line2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 5px 0px;
+
+}
+
+.line3 {
+    text-align: center;
+    font-size: 40px;
+    padding: 5px 0px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.mybtn {
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 23px;
+    border: none;
+    background-color: white;
+    color: blue;
+}
+
+.mybtn:hover {
+    background-color: bisque;
+    color: brown;
+    cursor: pointer;
+}
+
+.light-mode.mybtn {
+    background-color: black;
+    color: white;
+
+}
+
+.light-mode.mybtn:hover {
+    background-color: black;
+    color: bisque;
+
+}
+
+/* project */
+.projects {
+    height: 480px;
+    width: 100%;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.box {
+    height: 370px;
+    width: 340px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.box h3 {
+    margin-top: 15px;
+}
+
+.box h2 {
+    margin-top: 15px;
+}
+
+.boxe {
+    height: 150px;
+    margin-top: 60px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.light-mode.projects {
+    background-color: white;
+    color: black;
+}
+
+.light-mode.projects.boxe {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+/* skills */
+.skills {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.skills h1 {
+    margin-left: 30px;
+}
+
+.image {
+    display: flex;
+    margin-top: 30px;
+}
+
+.image1 {
+    display: flex;
+}
+
+.html1 {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin-left: 40px;
+    border: 2px solid white;
+}
+
+.css {
+    display: flex;
+    margin-left: 380px;
+}
+
+.css1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 40px;
+    border: 2px solid white;
+}
+
+.js {
+    display: flex;
+    margin-left: 380px;
+}
+
+.js1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 40px;
+    border: 2px solid white;
+}
+
+.light-mode .skills {
+    background-color: white;
+    color: black;
+}
+
+.light-mode .html1 {
+    border: 2px solid black;
+}
+
+.light-mode .css1 {
+    border: 2px solid black;
+}
+
+.light-mode .js1 {
+    border: 2px solid black;
+}
+
+.contact {
+    height: 550px;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.form label {
+    margin-left: 555px;
+}
+
+.form input {
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 555px;
+    margin-bottom: 20px;
+}
+
+.form textarea {
+    height: 120px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 555px;
+}
+
+.form .btnsubmit {
+    height: 50px;
+    width: 190px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 670px;
+    margin-top: 30px;
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+/* contact */
+
+.light-mode .contact {
+    background-color: white;
+    color: black;
+}
+
+.light-mode .contact input {
+    border: 2px solid black;
+}
+
+.light-mode .contact textarea {
+    border: 2px solid black;
+}
+
+.light-mode .contact button {
+    border: 2px solid black;
+}
