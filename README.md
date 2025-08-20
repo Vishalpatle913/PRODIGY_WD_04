@@ -11,7 +11,7 @@ This project involves building a personal portfolio website to showcase your ski
 - *About Me Section*: A detailed background, education, and professional experience.
 - *Portfolio*: Display your previous projects and showcase the work you have done.
 - *Contact Form*: A simple way for potential employers or clients to reach out.
-- *Light dark mode in portfolio.
+-  Add Light dark mode in portfolio.
 
 ## Technologies Used
 
